@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230519/pngtree-the-city-of-rio-is-in-the-background-of-the-sunrise-image_2569109.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+  text-shadow: 4px 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 100px;
+  height: auto; 
+}
+
+.spoiler-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.erro {
+  color: red;
+  margin: 0 0 5px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: black;
+}
+
+.imagem-for > img {
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 5px #000, 0 0 10px #333, 0 0 15px #555;
+}
+
+.div-botao {
+  /*
+  estilos para a h2 div-botao
+  */
+}
+/* Estilos para o botão */
+.meu-botao {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno (altura/largura) */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Estilo de sublinhado */
+    display: inline-block; /* Exibir como um elemento de bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 10px; /* Margem externa */
+    cursor: pointer; /* Mudança de cursor ao passar por cima */
+    border: none; /* Removendo a borda padrão */
+    border-radius: 5px; /* Arredondamento das bordas */
+}
+
+/* Mudança de estilo ao passar o mouse por cima do botão */
+.meu-botao:hover {
+    background-color: #45a049; /* Cor de fundo alterada */
+}
